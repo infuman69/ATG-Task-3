@@ -1,0 +1,19 @@
+.user_card{
+    display:flex;
+    height:4em;
+    background: #ECECEC;
+    border-radius: 4px;
+    width:100%;
+    margin:5px 0;
+    align-items: center;
+}
+.user_img{
+    width:4.3em;
+    height:4.3em;
+    margin:2px ;
+}
+.user_card_name{
+    color:#000000;
+    font-size:1.2rem;
+    margin-left: 0.6rem;
+}
