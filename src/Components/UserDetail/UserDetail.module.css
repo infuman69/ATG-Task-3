@@ -2,6 +2,13 @@
     width:45%;
 
 }
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #c5dfff;
+    background-image: url('../../assets/avatar.png');
+}
 .user_detail_head{
     width:100%;
     text-align: center;
@@ -74,4 +81,13 @@
     padding: 8px 4px;
     background: #DBDBDB;
     border: 1px solid #6C6C6C
+}
+@media only screen and (max-width: 800px){
+    .user_detail{
+        width:80%;
+        margin:5px auto;
+    }
+    .user_bio,.user_full_name,.user_job_title,.user_email{
+        width:70%
+    }
 }

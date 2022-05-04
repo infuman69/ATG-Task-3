@@ -31,7 +31,7 @@ const UserContainer = () => {
   return (
     <div className={style.user_container}>
         <UserList data={data} selectUser={selectUser} loading={loading} errmes={errmes}/>
-        <UserDetail/>
+        <UserDetail userData={userData}/>
     </div>
   )
 }

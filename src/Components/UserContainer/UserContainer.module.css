@@ -5,5 +5,14 @@
     width:89%;
     margin:20px auto;
     justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', sans-serif; 
+   
+}
+@media only screen and (max-width: 800px){
+    .user_container{
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
 }
