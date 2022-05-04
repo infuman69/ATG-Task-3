@@ -1,6 +1,6 @@
 .user_card{
     display:flex;
-    height:4em;
+    height:4.3em;
     background: #ECECEC;
     border-radius: 4px;
     width:100%;
@@ -8,9 +8,10 @@
     align-items: center;
 }
 .user_img{
-    width:4.3em;
-    height:4.3em;
+    width:4.1em;
+    height:4.1em;
     margin:2px ;
+    border-radius: 100%;
 }
 .user_card_name{
     color:#000000;
